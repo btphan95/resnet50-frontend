@@ -1,7 +1,8 @@
 import 'dart:math';
 
 import 'package:flutter/material.dart';
-import 'package:particle_background/simple_animations_package.dart';
+import 'package:resnet_is_awesome/simple_animations_package.dart';
+import 'package:resnet_is_awesome/widgets/image_upload.dart';
 
 void main() => runApp(ParticleApp());
 
@@ -24,6 +25,7 @@ class ParticleBackgroundPage extends StatelessWidget {
         Positioned.fill(child: AnimatedBackground()),
         Positioned.fill(child: Particles(30)),
         Positioned.fill(child: CenteredText()),
+//         Positioned(top: 700, bottom: 400, child: FileUploadButton()), 
       ],
     );
   }
@@ -131,7 +133,7 @@ class AnimatedBackground extends StatelessWidget {
   Widget build(BuildContext context) {
     final tween = MultiTrackTween([
       Track("color1").add(Duration(seconds: 3),
-          ColorTween(begin: Color(0xff8a113a), end: Colors.lightBlue.shade900)),
+              ColorTween(begin: Color(0xff8a113a), end: Colors.lightBlue.shade900)),
       Track("color2").add(Duration(seconds: 3),
           ColorTween(begin: Color(0xff440216), end: Colors.blue.shade600))
     ]);
@@ -157,15 +159,38 @@ class CenteredText extends StatelessWidget {
   const CenteredText({
     Key key,
   }) : super(key: key);
-
+    
   @override
   Widget build(BuildContext context) {
-    return Center(
-      child: Text(
-        "Welcome to Flutter for web",
-        style: TextStyle(color: Colors.white, fontWeight: FontWeight.w200),
-        textScaleFactor: 4,
-      ),
+    return Container(
+        
+        padding: EdgeInsets.all(20),
+          child: 
+            DefaultTextStyle(
+              style: TextStyle(fontSize: 24, color: Colors.white),
+              child: Column( 
+                mainAxisAlignment: MainAxisAlignment.center,
+                children: [
+                    Text(
+                        "ResNet is Awesome",
+                        textAlign: TextAlign.center,
+                        style: TextStyle(color: Colors.white, fontWeight: FontWeight.w200),
+                        textScaleFactor: 2,
+                    ),
+                    
+                    Text(
+                        "A web app demonstrating the awesomeness of ResNet50, written in Flutter.\n"
+                        "ResNet50 is a deep learning model that is trained on the ImageNet dataset. This model is imported from Tensorflow/Keras. \n"
+                        "Upload an image below to see what the deep learning model predicts, and let me know what you think!",
+                        textAlign: TextAlign.center,    
+                        style: TextStyle(color: Colors.white, fontWeight: FontWeight.w100),
+                        textScaleFactor: 1,
+                    ),
+                    
+                    FileUploadButton(),
+                ]
+              )
+            ),
     );
   }
 }
