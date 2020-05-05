@@ -8,7 +8,7 @@ const RESOURCES = {
 "assets/FontManifest.json": "01700ba55b08a6141f33e168c4a6c22f",
 "index.html": "51839f812a32cce7ac40ca488295da30",
 "/": "51839f812a32cce7ac40ca488295da30",
-"main.dart.js": "00eb7a2a57fdc621a3cd5f589009cc9b"
+"main.dart.js": "297a22101d21be50a6863623cd7b5b04"
 };
 
 self.addEventListener('activate', function (event) {

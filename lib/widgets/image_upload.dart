@@ -51,7 +51,7 @@ class _FileUploadButtonState extends State<FileUploadButton> {
     
   Future<List<dynamic>> makeRequest() async {
     var url = Uri.parse(
-        "http://localhost:4444/predict");
+        "https://resnet-cd5fzuyida-uw.a.run.app/predict");
     var request = new http.MultipartRequest("POST", url);
 
 //     request.files.add(await http.MultipartFile.fromBytes('image', image,
