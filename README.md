@@ -1,6 +1,6 @@
 ![alt text](https://github.com/btphan95/resnet-is-awesome/blob/master/assets/preview.png?raw=true)
 
-Flutter app demonstrating the awesomeness of ResNet50.
+A web app demoing ResNet50, built using Flutter.
 
 ResNet50 is a deep learning model trained on the ImageNet dataset. This model is imported from TensorFlow / Keras. 
 
