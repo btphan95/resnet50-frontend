@@ -1,0 +1,1 @@
+ build\\web\\index.html:  C:\\Users\\binht\\Documents\\Github\\resnet50-frontend\\web\\index.html

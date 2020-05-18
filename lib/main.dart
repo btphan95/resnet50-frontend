@@ -172,14 +172,14 @@ class CenteredText extends StatelessWidget {
                 mainAxisAlignment: MainAxisAlignment.center,
                 children: [
                     Text(
-                        "ResNet is Awesome",
+                        "ResNet",
                         textAlign: TextAlign.center,
                         style: TextStyle(color: Colors.white, fontWeight: FontWeight.w200),
                         textScaleFactor: 2,
                     ),
                     
                     Text(
-                        "A web app demonstrating the awesomeness of ResNet50, written in Flutter.\n"
+                        "A web app demonstrating ResNet50, written in Flutter.\n"
                         "ResNet50 is a deep learning model that is trained on the ImageNet dataset. This model is imported from Tensorflow/Keras. \n"
                         "Upload an image below to see what the deep learning model predicts, and let me know what you think!",
                         textAlign: TextAlign.center,    
