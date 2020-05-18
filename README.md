@@ -1,4 +1,5 @@
 ![alt text](https://github.com/btphan95/resnet-is-awesome/blob/master/assets/preview.png?raw=true)
+<a href="url"><img src="https://github.com/btphan95/resnet-is-awesome/blob/master/assets/preview.png?raw=true" align="middle" height="300" width="300" ></a>
 
 [<img src="https://img.shields.io/badge/live-demo-blueviolet?style=for-the-badge&logo=appveyor?">](http://resnet.surge.sh)
 
