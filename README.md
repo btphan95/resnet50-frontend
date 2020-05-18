@@ -1,5 +1,7 @@
 ![alt text](https://github.com/btphan95/resnet-is-awesome/blob/master/assets/preview.png?raw=true)
 
+![run live demo](https://img.shields.io/badge/live-demo-blueviolet?style=for-the-badge&logo=appveyor?link=http://resnet-is-awesome.surge.sh/#/&link=http://resnet-is-awesome.surge.sh/#/)
+
 A web app demoing ResNet50, built using the [Flutter](https://flutter.dev/) UI toolkit.
 
 ResNet50 is a deep learning model trained on the ImageNet dataset. This model is [imported from TensorFlow / Keras](https://keras.io/api/applications/resnet/#resnet50-function). 
