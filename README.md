@@ -1,6 +1,7 @@
 ![alt text](https://github.com/btphan95/resnet-is-awesome/blob/master/assets/preview.png?raw=true)
 
-![run live demo](https://img.shields.io/badge/live-demo-blueviolet?style=for-the-badge&logo=appveyor?link=http://resnet.surge.sh/#/&link=http://resnet.surge.sh/#/)
+[<img src="https://img.shields.io/badge/live-demo-blueviolet?style=for-the-badge&logo=appveyor?">](http://resnet.surge.sh)
+
 
 A web app demoing ResNet50, built using the [Flutter](https://flutter.dev/) UI toolkit.
 
