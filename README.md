@@ -9,7 +9,7 @@ ResNet50 is a deep learning model trained on the ImageNet dataset. This model is
 
 The model is served over a [Flask](https://flask.palletsprojects.com/en/1.1.x/) web server and then powered by a stateless [Docker container](https://www.docker.com/resources/what-container) on [Google Cloud Run](https://cloud.google.com/run).
 
-To see how this is implemented, see this [repo](https://github.com/btphan95/resnet-flask) for the backend infrastructure.
+To see how this is implemented, see my repo [resnet-flask](https://github.com/btphan95/resnet-flask) for the backend infrastructure.
 
 Feedback is greatly appreciated!
 
